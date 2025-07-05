@@ -1,0 +1,29 @@
+# Use official Node.js image
+FROM node:20-alpine
+
+# Install netcat for database connection check
+RUN apk add --no-cache netcat-openbsd
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package.json ./
+
+# Install dependencies using npm
+RUN npm install
+
+# Copy the rest of the application code (excluding node_modules thanks to .dockerignore)
+COPY . .
+
+# Make entrypoint script executable
+RUN chmod +x entrypoint.sh
+
+# Run TypeScript compiler with --skipLibCheck to avoid issues with third-party libraries
+RUN npx tsc --skipLibCheck
+
+# Expose the port
+EXPOSE 3000
+
+# Use the entrypoint script
+CMD ["./entrypoint.sh"]
