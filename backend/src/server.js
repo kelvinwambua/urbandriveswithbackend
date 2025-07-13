@@ -227,6 +227,7 @@ app.get("/api/cars/:id", async (req, res) => {
   try{
     const carId = parseInt(req.params.id);
     console.log("Fetching Car")
+  
     const car = await db
       .select()
       .from(cars)
