@@ -1,9 +1,10 @@
 [build]
 builder = "DOCKERFILE"
-dockerfilePath = "backend/dockerfile"
+dockerfilePath = "backend/Dockerfile"
+buildContext = "backend"
 
 [deploy]
-startCommand = "npm start"
+startCommand = "./entrypoint.sh"
 restartPolicyType = "ON_FAILURE"
 
 [env]
