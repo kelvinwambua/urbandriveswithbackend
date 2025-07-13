@@ -1,0 +1,26 @@
+# Use official Node.js image
+FROM node:20-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies using npm instead of pnpm to avoid store location issues
+RUN npm install
+
+# Copy the rest of the application code (excluding node_modules)
+COPY . .
+
+# Make sure vite is installed
+RUN npm install -g vite
+
+# Build the application
+RUN npm run build
+
+# Expose the port
+EXPOSE 5173
+
+# Start the application in development mode with host binding
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
