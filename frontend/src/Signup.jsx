@@ -9,7 +9,7 @@ const SignUp = () => {
                     <img src="https://raw.githubusercontent.com/kelvinwambua/urbandrives/main/web/public/Logo_With_Text.png" alt="Urban Drives Logo" class="auth-logo"/>
                 </a>
                 <h2>Create your account</h2>
-                <p>Join Urban Drives and start your journey</p>
+                <p>Join Urban Drives and start your journey!</p>
             </div>
             <div class="auth-content">
                 <form class="auth-form">
