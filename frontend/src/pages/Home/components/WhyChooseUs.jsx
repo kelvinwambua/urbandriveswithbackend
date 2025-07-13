@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
         </svg>
       ),
       title: "24/7 technical support",
-      description: "Have a question? Contact Rentcars support any time when you have problem."
+      description: "Have a question? Contact Urban Drives support any time when you have problem."
     }
   ];
 

@@ -33,7 +33,7 @@ const Footer = () => {
           <a href="#">Developer</a>
         </div>
         <div className="footer-col">
-          <h3>About Rentcars</h3>
+          <h3>About Urban Drives</h3>
           <a href="#">Why choose us</a>
           <a href="#">Our Story</a>
           <a href="#">Investor Relations</a>
