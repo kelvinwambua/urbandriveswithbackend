@@ -68,7 +68,7 @@ const Cars = () => {
                                     <p className="car-meta">2014 • Beige</p>
                                 </div>
                                 <div className="price">
-                                    <span className="price-amount">KES1212</span>
+                                    <span className="price-amount">KES8000</span>
                                     <span className="price-period">/day</span>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ const Cars = () => {
                                     <p className="car-meta">2019 • Green</p>
                                 </div>
                                 <div className="price">
-                                    <span className="price-amount">KES1212</span>
+                                    <span className="price-amount">KES2000</span>
                                     <span className="price-period">/day</span>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ const Cars = () => {
                                     <p className="car-meta">2020 • Black</p>
                                 </div>
                                 <div className="price">
-                                    <span className="price-amount">KES1000</span>
+                                    <span className="price-amount">KES1500</span>
                                     <span className="price-period">/day</span>
                                 </div>
                             </div>
