@@ -19,8 +19,7 @@ COPY . .
 # Make entrypoint script executable
 RUN chmod +x entrypoint.sh
 
-# Run TypeScript compiler with --skipLibCheck to avoid issues with third-party libraries
-RUN npx tsc --skipLibCheck
+
 
 # Expose the port
 EXPOSE 3000
