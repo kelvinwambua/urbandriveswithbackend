@@ -1,7 +1,16 @@
 # Urban Drives
 Urban Drives is a full-stack car rental application built with a modern tech stack. It allows users to browse available cars, book them for specific dates, and manage their bookings. The application features a user-friendly interface and a robust backend for handling car listings, bookings, and user authentication.
 # Video Demo (Click the video to open on youtube)
-[![Watch the video](https://img.youtube.com/vi/PHts9x9inpo/maxresdefault.jpg)](https://youtu.be/PHts9x9inpo)
+<div align="center">
+  <a href="https://youtu.be/PHts9x9inpo">
+    <img src="https://img.youtube.com/vi/PHts9x9inpo/maxresdefault.jpg" alt="Watch the video" width="600">
+  </a>
+</div>
+
+Or use this link if that does not work
+
+https://youtu.be/PHts9x9inpo
+
 ## Table of Contents
 - [Features](#Features)
 - [TechStack](#Tech-Stack)
